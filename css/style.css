@@ -2,48 +2,97 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.row.content{
-    height: 900px;
-    margin-top: 50px;
-}
-
-ul > li:hover {
-    background-color: #e69598;
-}
-
-.col-sm-8{
-    height: 100%;
-}
-
-.navbar-inverse .navbar-nav > li > a{
+.navbar-inverse .navbar-brand {
     color: white;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover{
+h4 {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#line{
+    margin-top: -3px;
+}
+
+ul {
+    margin-top: 60px;
+}
+
+.nav-pills > li {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.nav-pills > li:hover {
+    background-color: #c4e6ff;
+}
+
+.nav-pills > li > a:hover {
+    background-color: #c4e6ff;
+}
+
+ul > li:hover {
+    background-color: #D42627;
+}
+
+.navbar-inverse .navbar-nav > li{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
     color: black;
 }
 
-.navbar {
-    background-color: #cb2c31;
-    margin-bottom: 0;
-    border-radius: 0;
+.navbar-inverse {
+    background-color: #8B0304;
+    border-color: #8B0304;
 }
 
-/* Set gray background color and 100% height */
-.sidenav {
-    padding-top: 20px;
-    background-color: #f1f1f1;
+.col-sm-9 {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+#wrapper {
+    background-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
     height: 100%;
 }
 
-/* Set black background color, white text and some padding */
+.nav > li > a {
+    color: #303030;
+}
+
+footer{
+    text-align: center;
+}
+
+.row.content {
+    height: 1500px;
+    background-color: white;
+}
+
+.sidenav {
+    background-color: #cdcdcd;
+    height: 100%;
+}
+
 footer {
-    background-color: #555;
+    background-color: #8B0304;
+    border-color: #8B0304;
     color: white;
     padding: 15px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
     .sidenav {
         height: auto;
@@ -55,6 +104,5 @@ footer {
     }
 }
 
-#myContainer {
-    min-height: 900px;
-}
+
+
