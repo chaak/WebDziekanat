@@ -2,15 +2,31 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
+.row.content{
+    height: 900px;
+    margin-top: 50px;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {
-    height: 450px
+ul > li:hover {
+    background-color: #e69598;
+}
+
+.col-sm-8{
+    height: 100%;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: black;
+}
+
+.navbar {
+    background-color: #cb2c31;
+    margin-bottom: 0;
+    border-radius: 0;
 }
 
 /* Set gray background color and 100% height */
