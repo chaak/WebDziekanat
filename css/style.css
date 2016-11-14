@@ -12,8 +12,18 @@ h4 {
     text-align: center;
 }
 
-#line{
+#line {
     margin-top: -3px;
+}
+
+.line2{
+    border-color: #303030;
+}
+
+h2{
+    margin-left: 100px;
+    text-align: left;
+    margin-top: -27px;
 }
 
 ul {
@@ -37,7 +47,7 @@ ul > li:hover {
     background-color: #D42627;
 }
 
-.navbar-inverse .navbar-nav > li{
+.navbar-inverse .navbar-nav > li {
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -47,7 +57,7 @@ ul > li:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: black;
+    color: #303030;
 }
 
 .navbar-inverse {
@@ -72,7 +82,7 @@ ul > li:hover {
     color: #303030;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
