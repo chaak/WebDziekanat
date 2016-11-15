@@ -6,6 +6,50 @@ body {
     color: white;
 }
 
+.conservation:hover{
+    color: #00BB00;
+}
+
+.conservation{
+    font-size: 23px;
+    color: #8B0304;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.text_foriners{
+    margin-top: 20px;
+    font-size: 23px;
+    color: #00BB00;
+}
+
+.attention_foriners{
+    margin-right: 150px;
+    margin-top: 20px;
+    font-size: 23px;
+    color: #00BB00;
+    margin-left: 40px;
+    font-weight: bold;
+    float: left;
+    width: 250px;
+}
+
+.header{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.paragraph{
+    font-size: 18px;
+    text-indent: 1.5em;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 15px;
+}
+
 h4 {
     margin-left: 15px;
     margin-top: 20px;
@@ -18,9 +62,15 @@ h4 {
 
 .line2{
     border-color: #303030;
+    margin-bottom: 50px;
 }
 
-h2{
+.header2{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#mainHeader{
     margin-left: 100px;
     text-align: left;
     margin-top: -27px;
