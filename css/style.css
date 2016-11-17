@@ -2,6 +2,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar-inverse{
+    position: fixed;
+    top: 0;
+    width: 82%;
+}
+
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -80,17 +86,25 @@ ul {
     margin-top: 60px;
 }
 
+.navbar-inverse .navbar-nav > li {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+}
+
 .nav-pills > li {
     padding: 15px;
     border-radius: 5px;
 }
 
 .nav-pills > li:hover {
-    background-color: #c4e6ff;
+    background-color: #cdcdcd;
 }
 
 .nav-pills > li > a:hover {
-    background-color: #c4e6ff;
+    background-color: #999999;
 }
 
 ul > li:hover {
@@ -107,12 +121,16 @@ ul > li:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #303030;
+    color: white;
 }
 
 .navbar-inverse {
     background-color: #8B0304;
     border-color: #8B0304;
+}
+
+.col-sm-3{
+    width: 18%;
 }
 
 .col-sm-9 {
@@ -126,14 +144,11 @@ ul > li:hover {
     padding-right: 15px;
     padding-left: 15px;
     height: 100%;
+    margin-top: 90px;
 }
 
 .nav > li > a {
     color: #303030;
-}
-
-footer {
-    text-align: center;
 }
 
 .row.content {
@@ -147,6 +162,7 @@ footer {
 }
 
 footer {
+    text-align: center;
     background-color: #8B0304;
     border-color: #8B0304;
     color: white;
