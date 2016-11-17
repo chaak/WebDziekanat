@@ -60,10 +60,12 @@ h4 {
     margin-left: 15px;
     margin-top: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 #line {
     margin-top: -3px;
+    border-color: #303030;
 }
 
 .line2{
@@ -103,8 +105,14 @@ ul {
     background-color: #cdcdcd;
 }
 
+.nav-pills > li > a{
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .nav-pills > li > a:hover {
     background-color: #999999;
+    font-size: 18px;
 }
 
 ul > li:hover {
@@ -159,6 +167,7 @@ ul > li:hover {
 .sidenav {
     background-color: #cdcdcd;
     height: 100%;
+    border-radius: 5px;
 }
 
 footer {
